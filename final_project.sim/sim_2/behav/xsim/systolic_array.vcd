@@ -1,0 +1,758 @@
+$date
+   Sat Dec 14 12:07:52 2024
+$end
+$version
+  2023.1
+$end
+$timescale
+  1ps
+$end
+$scope module systolic_array_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " rst_n $end
+$var reg 1 # start $end
+$var reg 1 $ input_valid $end
+$var reg 1 % done $end
+$scope module dut $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 ( start $end
+$var wire 1 ) input_valid $end
+$var reg 1 % done $end
+$var reg 4 * cycle_count [3:0] $end
+$var reg 1 + computing $end
+$scope module row[0].col[0].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 , valid_in $end
+$var wire 16 - a_in [15:0] $end
+$var wire 16 . b_in [15:0] $end
+$var reg 16 / a_out [383:368] $end
+$var reg 16 0 b_out [319:304] $end
+$var reg 32 1 c_out [511:480] $end
+$var reg 32 2 c_reg [31:0] $end
+$upscope $end
+$scope module row[0].col[1].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 3 valid_in $end
+$var wire 16 4 a_in [15:0] $end
+$var wire 16 5 b_in [15:0] $end
+$var reg 16 6 a_out [367:352] $end
+$var reg 16 7 b_out [303:288] $end
+$var reg 32 8 c_out [479:448] $end
+$var reg 32 9 c_reg [31:0] $end
+$upscope $end
+$scope module row[0].col[2].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 : valid_in $end
+$var wire 16 ; a_in [15:0] $end
+$var wire 16 < b_in [15:0] $end
+$var reg 16 = a_out [351:336] $end
+$var reg 16 > b_out [287:272] $end
+$var reg 32 ? c_out [447:416] $end
+$var reg 32 @ c_reg [31:0] $end
+$upscope $end
+$scope module row[0].col[3].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 A valid_in $end
+$var wire 16 B a_in [15:0] $end
+$var wire 16 C b_in [15:0] $end
+$var reg 16 D a_out [335:320] $end
+$var reg 16 E b_out [271:256] $end
+$var reg 32 F c_out [415:384] $end
+$var reg 32 G c_reg [31:0] $end
+$upscope $end
+$scope module row[1].col[0].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 H valid_in $end
+$var wire 16 I a_in [15:0] $end
+$var wire 16 J b_in [15:0] $end
+$var reg 16 K a_out [303:288] $end
+$var reg 16 L b_out [239:224] $end
+$var reg 32 M c_out [383:352] $end
+$var reg 32 N c_reg [31:0] $end
+$upscope $end
+$scope module row[1].col[1].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 O valid_in $end
+$var wire 16 P a_in [15:0] $end
+$var wire 16 Q b_in [15:0] $end
+$var reg 16 R a_out [287:272] $end
+$var reg 16 S b_out [223:208] $end
+$var reg 32 T c_out [351:320] $end
+$var reg 32 U c_reg [31:0] $end
+$upscope $end
+$scope module row[1].col[2].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 V valid_in $end
+$var wire 16 W a_in [15:0] $end
+$var wire 16 X b_in [15:0] $end
+$var reg 16 Y a_out [271:256] $end
+$var reg 16 Z b_out [207:192] $end
+$var reg 32 [ c_out [319:288] $end
+$var reg 32 \ c_reg [31:0] $end
+$upscope $end
+$scope module row[1].col[3].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 ] valid_in $end
+$var wire 16 ^ a_in [15:0] $end
+$var wire 16 _ b_in [15:0] $end
+$var reg 16 ` a_out [255:240] $end
+$var reg 16 a b_out [191:176] $end
+$var reg 32 b c_out [287:256] $end
+$var reg 32 c c_reg [31:0] $end
+$upscope $end
+$scope module row[2].col[0].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 d valid_in $end
+$var wire 16 e a_in [15:0] $end
+$var wire 16 f b_in [15:0] $end
+$var reg 16 g a_out [223:208] $end
+$var reg 16 h b_out [159:144] $end
+$var reg 32 i c_out [255:224] $end
+$var reg 32 j c_reg [31:0] $end
+$upscope $end
+$scope module row[2].col[1].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 k valid_in $end
+$var wire 16 l a_in [15:0] $end
+$var wire 16 m b_in [15:0] $end
+$var reg 16 n a_out [207:192] $end
+$var reg 16 o b_out [143:128] $end
+$var reg 32 p c_out [223:192] $end
+$var reg 32 q c_reg [31:0] $end
+$upscope $end
+$scope module row[2].col[2].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 r valid_in $end
+$var wire 16 s a_in [15:0] $end
+$var wire 16 t b_in [15:0] $end
+$var reg 16 u a_out [191:176] $end
+$var reg 16 v b_out [127:112] $end
+$var reg 32 w c_out [191:160] $end
+$var reg 32 x c_reg [31:0] $end
+$upscope $end
+$scope module row[2].col[3].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 y valid_in $end
+$var wire 16 z a_in [15:0] $end
+$var wire 16 { b_in [15:0] $end
+$var reg 16 | a_out [175:160] $end
+$var reg 16 } b_out [111:96] $end
+$var reg 32 ~ c_out [159:128] $end
+$var reg 32 !! c_reg [31:0] $end
+$upscope $end
+$scope module row[3].col[0].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 "! valid_in $end
+$var wire 16 #! a_in [15:0] $end
+$var wire 16 $! b_in [15:0] $end
+$var reg 16 %! a_out [143:128] $end
+$var reg 16 &! b_out [79:64] $end
+$var reg 32 '! c_out [127:96] $end
+$var reg 32 (! c_reg [31:0] $end
+$upscope $end
+$scope module row[3].col[1].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 )! valid_in $end
+$var wire 16 *! a_in [15:0] $end
+$var wire 16 +! b_in [15:0] $end
+$var reg 16 ,! a_out [127:112] $end
+$var reg 16 -! b_out [63:48] $end
+$var reg 32 .! c_out [95:64] $end
+$var reg 32 /! c_reg [31:0] $end
+$upscope $end
+$scope module row[3].col[2].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 0! valid_in $end
+$var wire 16 1! a_in [15:0] $end
+$var wire 16 2! b_in [15:0] $end
+$var reg 16 3! a_out [111:96] $end
+$var reg 16 4! b_out [47:32] $end
+$var reg 32 5! c_out [63:32] $end
+$var reg 32 6! c_reg [31:0] $end
+$upscope $end
+$scope module row[3].col[3].pe_inst $end
+$var wire 1 & clk $end
+$var wire 1 ' rst_n $end
+$var wire 1 7! valid_in $end
+$var wire 16 8! a_in [15:0] $end
+$var wire 16 9! b_in [15:0] $end
+$var reg 16 :! a_out [95:80] $end
+$var reg 16 ;! b_out [31:16] $end
+$var reg 32 <! c_out [31:0] $end
+$var reg 32 =! c_reg [31:0] $end
+$upscope $end
+$scope begin Block94_19 $end
+$var reg 32 >! i [31:0] $end
+$upscope $end
+$scope begin Block101_20 $end
+$var reg 32 ?! j [31:0] $end
+$upscope $end
+$scope begin Block107_21 $end
+$var reg 32 @! i [31:0] $end
+$upscope $end
+$scope begin Block119_23 $end
+$var reg 32 A! i [31:0] $end
+$scope begin Block120_24 $end
+$var reg 32 B! j [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin Block66_28 $end
+$var reg 32 C! i [31:0] $end
+$upscope $end
+$scope begin Block83_29 $end
+$var reg 32 D! t [31:0] $end
+$scope begin Block85_30 $end
+$var reg 32 E! i [31:0] $end
+$upscope $end
+$upscope $end
+$scope task print_matrix_state $end
+$scope begin Block52_25 $end
+$var reg 32 F! i [31:0] $end
+$scope begin Block53_26 $end
+$var reg 32 G! j [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 !!
+0"
+x"!
+0#
+bx #!
+0$
+b0 $!
+0%
+b0 %!
+0&
+b0 &!
+0'
+b0 '!
+0(
+b0 (!
+0)
+x)!
+b0 *
+b0 *!
+0+
+b0 +!
+x,
+b0 ,!
+bx -
+b0 -!
+bx .
+b0 .!
+b0 /
+b0 /!
+b0 0
+x0!
+b0 1
+b0 1!
+b0 2
+b0 2!
+x3
+b0 3!
+b0 4
+b0 4!
+bx 5
+b0 5!
+b0 6
+b0 6!
+b0 7
+x7!
+b0 8
+b0 8!
+b0 9
+b0 9!
+x:
+b0 :!
+b0 ;
+b0 ;!
+bx <
+b0 <!
+b0 =
+b0 =!
+b0 >
+b0 >!
+b0 ?
+b0 ?!
+b0 @
+b0 @!
+xA
+b0 A!
+b0 B
+b0 B!
+bx C
+b100 C!
+b0 D
+b0 D!
+b0 E
+b0 E!
+b0 F
+b0 F!
+b0 G
+b0 G!
+xH
+bx I
+b0 J
+b0 K
+b0 L
+b0 M
+b0 N
+xO
+b0 P
+b0 Q
+b0 R
+b0 S
+b0 T
+b0 U
+xV
+b0 W
+b0 X
+b0 Y
+b0 Z
+b0 [
+b0 \
+x]
+b0 ^
+b0 _
+b0 `
+b0 a
+b0 b
+b0 c
+xd
+bx e
+b0 f
+b0 g
+b0 h
+b0 i
+b0 j
+xk
+b0 l
+b0 m
+b0 n
+b0 o
+b0 p
+b0 q
+xr
+b0 s
+b0 t
+b0 u
+b0 v
+b0 w
+b0 x
+xy
+b0 z
+b0 {
+b0 |
+b0 }
+b0 ~
+$end
+#5000
+1!
+0"!
+b0 #!
+1&
+0,
+b0 -
+b0 .
+03
+b0 5
+0:
+b0 <
+b100 @!
+0A
+b0 C
+0H
+b0 I
+0d
+b0 e
+#10000
+0!
+0&
+#15000
+1!
+1"
+1&
+1'
+b100 @!
+#20000
+0!
+0&
+#25000
+1!
+1#
+1$
+1&
+1(
+1)
+1+
+b100 @!
+#30000
+0!
+0&
+#35000
+1!
+0#
+1&
+0(
+b1 *
+1,
+b100 >!
+b100 ?!
+#40000
+0!
+0&
+#45000
+1!
+1&
+b10 *
+b101 -
+b10 .
+13
+b1 5
+b100 >!
+b100 ?!
+b1 D!
+b100 E!
+b100 F!
+b100 G!
+1H
+b1 I
+#50000
+0!
+0&
+#55000
+1!
+1&
+b11 *
+b1010 -
+b111 .
+b101 /
+b10 0
+b1010 1
+b1010 2
+b101 4
+b110 5
+b1 7
+1:
+b101 <
+b100 >!
+b100 ?!
+b10 D!
+b100 E!
+b100 F!
+b100 G!
+b110 I
+b10 J
+b1 K
+b1 P
+b1 Q
+1d
+b10 e
+#60000
+0!
+0&
+#65000
+1!
+1"!
+b11 #!
+1&
+b100 *
+b1111 -
+b1100 .
+b1010 /
+b111 0
+b1010000 1
+b1010000 2
+b1010 4
+b1011 5
+b101 6
+b110 7
+b11110 8
+b11110 9
+b101 ;
+b1010 <
+b101 >
+b100 >!
+b100 ?!
+1A
+b1001 C
+b11 D!
+b100 E!
+b100 F!
+b100 G!
+b1011 I
+b111 J
+b110 K
+b10 L
+b1100 M
+b1100 N
+b110 P
+b110 Q
+b101 X
+b111 e
+b10 f
+b10 g
+b10 l
+#70000
+0!
+0&
+#75000
+1!
+b1000 #!
+b10 $!
+b11 %!
+1&
+b101 *
+b11 *!
+0,
+b0 -
+b0 .
+b1111 /
+b1100 0
+b100000100 1
+b100000100 2
+b1111 4
+b10000 5
+b1010 6
+b1011 7
+b10001100 8
+b10001100 9
+b1010 ;
+b1111 <
+b101 =
+b1010 >
+b100 >!
+b110010 ?
+b100 ?!
+b110010 @
+b101 B
+b1110 C
+b100 D!
+b1001 E
+b100 E!
+b100 F!
+b100 G!
+b10000 I
+b1100 J
+b1011 K
+b111 L
+b1011001 M
+b1011001 N
+b1011 P
+b1011 Q
+b1010 X
+b1001 _
+b1100 e
+b111 f
+b111 g
+b10 h
+b1110 i
+b1110 j
+b111 l
+#80000
+0!
+0&
+#85000
+1!
+b0 #!
+b111 $!
+b1000 %!
+1&
+b10 &!
+b10000 '!
+b10000 (!
+b110 *
+b1000 *!
+03
+b0 5
+b1111 6
+b10000 7
+b101111100 8
+b101111100 9
+b1111 ;
+b0 <
+b1010 =
+b1111 >
+b100 >!
+b11001000 ?
+b100 ?!
+b11001000 @
+b1010 B
+b0 C
+b101 D
+b101 D!
+b1110 E
+b100 E!
+b1000110 F
+b100 F!
+b1000110 G
+b100 G!
+0H
+b0 I
+b10000 K
+b1100 L
+b100011001 M
+b100011001 N
+b10000 P
+b10000 Q
+b1111 X
+b1110 _
+b0 e
+b1100 f
+b1100 g
+b111 h
+b1100010 i
+b1100010 j
+b1100 l
+#90000
+0!
+0&
+#95000
+1!
+b1100 $!
+b0 %!
+1&
+b111 &!
+b111 *
+b0 *!
+0:
+b1111 =
+b0 >
+b100 >!
+b100 ?!
+b1111 B
+b1010 D
+b110 D!
+b0 E
+b100 E!
+b100 F!
+b100 G!
+b0 X
+b0 _
+0d
+b0 g
+b1100 h
+b0 l
+#100000
+0!
+0&
+#105000
+1!
+0"!
+1&
+b1100 &!
+b1000 *
+b100 >!
+b100 ?!
+0A
+b1111 D
+b111 D!
+b100 E!
+b100 F!
+b100 G!
+#110000
+0!
+0&
+#115000
+1!
+0$
+1&
+0)
+b1001 *
+b100 @!
+b1000 D!
+b100 E!
+b100 F!
+b100 G!
+#120000
+0!
+0&
+#125000
+1!
+1&
+b1010 *
+b100 @!
+#130000
+0!
+0&
+#135000
+1!
+1&
+b1011 *
+b100 @!
+#140000
+0!
+0&
+#145000
+1!
+1%
+1&
+b1100 *
+0+
+b100 @!
+b100 F!
+b100 G!
+#150000
+0!
+0&
+#155000
+1!
+1&
+b100 @!
+b100 A!
+b100 B!
+#160000
+0!
+0&
+#165000
+1!
+1&
+b100 @!
+b100 A!
+b100 B!
+#170000
+0!
+0&
+#175000
+1!
+1&
+b100 @!
+b100 A!
+b100 B!
+#180000
+0!
+0&
+#185000
+1!
+1&
+b100 @!
+b100 A!
+b100 B!
+#190000
+0!
+0&
+#195000
+1!
+1&

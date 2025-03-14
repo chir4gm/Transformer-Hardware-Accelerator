@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Fri Mar 14 14:07:48 2025
+# Process ID: 25036
+# Current directory: C:/Users/chira/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30236
+# Log file: C:/Users/chira/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/chira/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: rz09-0165, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 4, Host memory: 17067 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chira/Desktop/ece498/final_project/final_project.xpr
+update_compile_order -fileset sources_1
+write_project_tcl -all_properties -dump_project_info {C:/Users/chira/Downloads/498_export/498_transformer.tcl}
+write_project_tcl -all_properties {C:/Users/chira/Downloads/498_export/498_transformer.tcl}
+write_project_tcl -no_copy_sources -use_bd_files {C:/Users/chira/Downloads/498_export/498_transformer.tcl}
+set proj_dir [get_property DIRECTORY [current_project]]
+set_property -name "origin_dir_path" -value "${proj_dir}" -objects [current_fileset]
+set_property -name "origin_dir" -value "${proj_dir}" -objects [current_fileset]
+write_project_tcl
+write_project_tcl -h
+write_project_tcl -force -absolute_path -target_proj_dir C:/Users/chira/Downloads/498_export/project C:/Users/chira/Downloads/498_export/498_transformer.tcl
+archive_project C:/Users/chira/Downloads/498_export/final_project.xpr.zip -temp_dir C:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165 -force -exclude_run_results -include_config_settings

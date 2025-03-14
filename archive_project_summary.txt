@@ -1,0 +1,391 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+* Section (5) - CONFIGURATION SETTINGS/FILES
+*  This section summarizes the configuration settings/files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = final_project
+Directory = C:/Users/chira/Desktop/ece498/final_project
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - Excluded Runs
+---------------------------
+The run results were excluded for the following runs in the archived project:-
+
+<synth_1>
+<design_1_transformer_axi_wrap_0_0_synth_1>
+<design_1_processing_system7_0_0_synth_1>
+<design_1_auto_pc_0_synth_1>
+<design_1_rst_ps7_0_100M_0_synth_1>
+<impl_1>
+<design_1_transformer_axi_wrap_0_0_impl_1>
+<design_1_processing_system7_0_0_impl_1>
+<design_1_auto_pc_0_impl_1>
+<design_1_rst_ps7_0_100M_0_impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_2> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_3> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<MAC_matrix_multiply> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<design_1_auto_pc_0>
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/c97d/simulation/fifo_generator_vlog_beh.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/c97d/hdl/fifo_generator_v13_2_rfs.vhd
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/c97d/hdl/fifo_generator_v13_2_rfs.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/bb55/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/c97d/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/fab7/hdl/axi_data_fifo_v2_1_vl_rfs.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/8c02/hdl/axi_protocol_converter_v2_1_vl_rfs.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xml
+
+<design_1_processing_system7_0_0>
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/ed63/hdl/axi_vip_v1_1_vl_rfs.sv
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_local_params.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_vl_rfs.sv
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_reg_params.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_reg_init.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_apis.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_unused_ports.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_axi_gp.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_axi_acp.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_axi_hp.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_stub.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_stub.vhdl
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_sim_netlist.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_sim_netlist.vhdl
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/design_1_processing_system7_0_0.hwdef
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.c
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.h
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init_gpl.c
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init_gpl.h
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.tcl
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.html
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_aw_atc.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_b_atc.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_w_atc.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_atc.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_trace_buffer.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xml
+
+<design_1_rst_ps7_0_100M_0>
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_stub.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_stub.vhdl
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_sim_netlist.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_sim_netlist.vhdl
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/synth/design_1_rst_ps7_0_100M_0.vhd
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_ooc.xdc
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xml
+
+<design_1_transformer_axi_wrap_0_0>
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/0f72/src/pe.sv
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/0f72/src/processor.sv
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/0f72/src/top.sv
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/0f72/final_project/final_project.srcs/sources_1/bd/design_1/transformer_axi_wrapper.sv
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ipshared/0f72/hdl/transformer_axi_wrapper_v1_0.vhd
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/sim/design_1_transformer_axi_wrap_0_0.vhd
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0.dcp
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0_stub.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0_stub.vhdl
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0_sim_netlist.v
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0_sim_netlist.vhdl
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/data/transformer_axi_wrapper.mdd
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/data/transformer_axi_wrapper.tcl
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/src/Makefile
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/src/transformer_axi_wrapper.h
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/src/transformer_axi_wrapper.c
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/src/transformer_axi_wrapper_selftest.c
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/synth/design_1_transformer_axi_wrap_0_0.vhd
+c:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0.xml
+
+<MAC_matrix_multiply>
+None
+
+<constrs_1>
+None
+
+<sim_1>
+C:/Users/chira/Desktop/ece498/final_project/transformer_encoder_tb_behav.wcfg
+
+<sim_2>
+C:/Users/chira/Desktop/ece498/final_project/systolic_array_tb_behav.wcfg
+
+<sim_3>
+C:/Users/chira/Desktop/ece498/final_project/processor_tb_behav.wcfg
+
+<sources_1>
+None
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./final_project.srcs/sources_1/new/pe.sv
+./final_project.srcs/sources_1/new/processor.sv
+./final_project.srcs/sources_1/new/top.sv
+./final_project.srcs/sources_1/new/mock_top.sv
+
+<constrs_1>
+./final_project.srcs/constrs_1/imports/A.0/PYNQ-Z2 v1.0.xdc
+
+<sim_1>
+./final_project.srcs/sim_1/new/tb.sv
+
+./final_project.srcs/sim_1/imports/final_project/transformer_encoder_tb_behav.wcfg
+
+<utils_1>
+./final_project.srcs/utils_1/imports/synth_1/transformer_encoder.dcp
+
+<sim_2>
+./final_project.srcs/sim_2/new/systolic_tb.sv
+./final_project.srcs/sim_2/imports/final_project/systolic_array_tb_behav.wcfg
+
+<design_1_transformer_axi_wrap_0_0>
+./final_project.srcs/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0.xci
+./final_project.gen/sources_1/bd/design_1/ipshared/0f72/src/pe.sv
+./final_project.gen/sources_1/bd/design_1/ipshared/0f72/src/processor.sv
+./final_project.gen/sources_1/bd/design_1/ipshared/0f72/src/top.sv
+./final_project.gen/sources_1/bd/design_1/ipshared/0f72/final_project/final_project.srcs/sources_1/bd/design_1/transformer_axi_wrapper.sv
+./final_project.gen/sources_1/bd/design_1/ipshared/0f72/hdl/transformer_axi_wrapper_v1_0.vhd
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/sim/design_1_transformer_axi_wrap_0_0.vhd
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0.dcp
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0_stub.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0_stub.vhdl
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0_sim_netlist.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0_sim_netlist.vhdl
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/data/transformer_axi_wrapper.mdd
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/data/transformer_axi_wrapper.tcl
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/src/Makefile
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/src/transformer_axi_wrapper.h
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/src/transformer_axi_wrapper.c
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/drivers/transformer_axi_wrapper_v1_0/src/transformer_axi_wrapper_selftest.c
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/synth/design_1_transformer_axi_wrap_0_0.vhd
+./final_project.gen/sources_1/bd/design_1/ip/design_1_transformer_axi_wrap_0_0/design_1_transformer_axi_wrap_0_0.xml
+
+<design_1_processing_system7_0_0>
+./final_project.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xci
+./final_project.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+./final_project.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+./final_project.gen/sources_1/bd/design_1/ipshared/ed63/hdl/axi_vip_v1_1_vl_rfs.sv
+./final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_local_params.v
+./final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_vl_rfs.sv
+./final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_reg_params.v
+./final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_reg_init.v
+./final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_apis.v
+./final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_unused_ports.v
+./final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_axi_gp.v
+./final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_axi_acp.v
+./final_project.gen/sources_1/bd/design_1/ipshared/aed8/hdl/processing_system7_vip_v1_0_16_axi_hp.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_stub.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_stub.vhdl
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_sim_netlist.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_sim_netlist.vhdl
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/design_1_processing_system7_0_0.hwdef
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.c
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.h
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init_gpl.c
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init_gpl.h
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.tcl
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.html
+./final_project.gen/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_aw_atc.v
+./final_project.gen/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_b_atc.v
+./final_project.gen/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_w_atc.v
+./final_project.gen/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_atc.v
+./final_project.gen/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_trace_buffer.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xml
+
+<design_1_auto_pc_0>
+./final_project.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xci
+./final_project.gen/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v
+./final_project.gen/sources_1/bd/design_1/ipshared/c97d/simulation/fifo_generator_vlog_beh.v
+./final_project.gen/sources_1/bd/design_1/ipshared/c97d/hdl/fifo_generator_v13_2_rfs.vhd
+./final_project.gen/sources_1/bd/design_1/ipshared/c97d/hdl/fifo_generator_v13_2_rfs.v
+./final_project.gen/sources_1/bd/design_1/ipshared/bb55/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./final_project.gen/sources_1/bd/design_1/ipshared/c97d/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+./final_project.gen/sources_1/bd/design_1/ipshared/fab7/hdl/axi_data_fifo_v2_1_vl_rfs.v
+./final_project.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+./final_project.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+./final_project.gen/sources_1/bd/design_1/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v
+./final_project.gen/sources_1/bd/design_1/ipshared/8c02/hdl/axi_protocol_converter_v2_1_vl_rfs.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
+./final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
+./final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl
+./final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc
+./final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xml
+
+<design_1_rst_ps7_0_100M_0>
+./final_project.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xci
+./final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc
+./final_project.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./final_project.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd
+./final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp
+./final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_stub.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_stub.vhdl
+./final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_sim_netlist.v
+./final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_sim_netlist.vhdl
+./final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc
+./final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/synth/design_1_rst_ps7_0_100M_0.vhd
+./final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_ooc.xdc
+./final_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xml
+
+<sim_3>
+./final_project.srcs/sim_3/new/processortb.sv
+./final_project.srcs/sim_3/imports/final_project/processor_tb_behav.wcfg
+
+<MAC_matrix_multiply>
+./final_project.srcs/MAC_matrix_multiply/new/mac_matmul.sv
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+./final_project.ipdefs/transformer_axi_wrapper_1_0/
+
+<design_1_transformer_axi_wrap_0_0>
+None
+
+<design_1_processing_system7_0_0>
+None
+
+<design_1_auto_pc_0>
+None
+
+<design_1_rst_ps7_0_100M_0>
+None
+
+./final_project.board/pynq-z2
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/chira/AppData/Roaming/Xilinx/Vivado/vivado.jou
+Archived Location = ./final_project/vivado.jou
+
+Source File = C:/Users/chira/AppData/Roaming/Xilinx/Vivado/vivado.log
+Archived Location = ./final_project/vivado.log
+
+Section (5) - CONFIGURATION SETTINGS/FILES
+------------------------------------------
+List of configuration settings/files that were added to the archived project:-
+
+Source File = C:/Users/chira/AppData/Roaming/Xilinx/Vivado/init.tcl
+Archived Location = ./final_project/config_settings/init.tcl
+

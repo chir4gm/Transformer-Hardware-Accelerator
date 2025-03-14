@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="processor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="processor_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="143.401 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="256"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/processor_tb/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/proc_mode" type="array">
+      <obj_property name="ElementShortName">proc_mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">proc_mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/data_in_a" type="array">
+      <obj_property name="ElementShortName">data_in_a[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_a[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/data_in_b" type="array">
+      <obj_property name="ElementShortName">data_in_b[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_b[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/valid_in_array" type="array">
+      <obj_property name="ElementShortName">valid_in_array[0:3]</obj_property>
+      <obj_property name="ObjectShortName">valid_in_array[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/op_code_array" type="array">
+      <obj_property name="ElementShortName">op_code_array[0:3][2:0]</obj_property>
+      <obj_property name="ObjectShortName">op_code_array[0:3][2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/data_in_a_array" type="array">
+      <obj_property name="ElementShortName">data_in_a_array[0:3][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_a_array[0:3][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/data_in_b_array" type="array">
+      <obj_property name="ElementShortName">data_in_b_array[0:3][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_b_array[0:3][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/data_in_acc_array" type="array">
+      <obj_property name="ElementShortName">data_in_acc_array[0:3][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_acc_array[0:3][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/valid_out_array" type="array">
+      <obj_property name="ElementShortName">valid_out_array[0:3]</obj_property>
+      <obj_property name="ObjectShortName">valid_out_array[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/acc_valid_array" type="array">
+      <obj_property name="ElementShortName">acc_valid_array[0:3]</obj_property>
+      <obj_property name="ObjectShortName">acc_valid_array[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/data_out_array" type="array">
+      <obj_property name="ElementShortName">data_out_array[0:3][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_array[0:3][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/pe_active" type="array">
+      <obj_property name="ElementShortName">pe_active[0:3]</obj_property>
+      <obj_property name="ObjectShortName">pe_active[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/idx" type="array">
+      <obj_property name="ElementShortName">idx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/data_out_buffer" type="array">
+      <obj_property name="ElementShortName">data_out_buffer[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_buffer[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/dut/all_valid" type="logic">
+      <obj_property name="ElementShortName">all_valid</obj_property>
+      <obj_property name="ObjectShortName">all_valid</obj_property>
+   </wvobject>
+</wave_config>

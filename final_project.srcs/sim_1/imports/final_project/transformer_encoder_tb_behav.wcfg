@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="transformer_encoder_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="transformer_encoder_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="702.916 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,059.417 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="260"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/transformer_encoder_tb/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/data_in_valid" type="logic">
+      <obj_property name="ElementShortName">data_in_valid</obj_property>
+      <obj_property name="ObjectShortName">data_in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/data_out_valid" type="logic">
+      <obj_property name="ElementShortName">data_out_valid</obj_property>
+      <obj_property name="ObjectShortName">data_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/data_out_ready" type="logic">
+      <obj_property name="ElementShortName">data_out_ready</obj_property>
+      <obj_property name="ObjectShortName">data_out_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/data_in_ready" type="logic">
+      <obj_property name="ElementShortName">data_in_ready</obj_property>
+      <obj_property name="ObjectShortName">data_in_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/data_in_serial" type="array">
+      <obj_property name="ElementShortName">data_in_serial[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_serial[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/data_out_serial" type="array">
+      <obj_property name="ElementShortName">data_out_serial[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_serial[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/data_io_state" type="array">
+      <obj_property name="ElementShortName">data_io_state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">data_io_state[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/q_matrix" type="array">
+      <obj_property name="ElementShortName">q_matrix[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">q_matrix[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/k_matrix" type="array">
+      <obj_property name="ElementShortName">k_matrix[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">k_matrix[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/v_matrix" type="array">
+      <obj_property name="ElementShortName">v_matrix[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">v_matrix[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/qk_scores" type="array">
+      <obj_property name="ElementShortName">qk_scores[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">qk_scores[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/qk_scaled" type="array">
+      <obj_property name="ElementShortName">qk_scaled[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">qk_scaled[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/attention_weights" type="array">
+      <obj_property name="ElementShortName">attention_weights[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">attention_weights[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/start_qk" type="logic">
+      <obj_property name="ElementShortName">start_qk</obj_property>
+      <obj_property name="ObjectShortName">start_qk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/start_scale" type="logic">
+      <obj_property name="ElementShortName">start_scale</obj_property>
+      <obj_property name="ObjectShortName">start_scale</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/start_softmax" type="logic">
+      <obj_property name="ElementShortName">start_softmax</obj_property>
+      <obj_property name="ObjectShortName">start_softmax</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/start_v" type="logic">
+      <obj_property name="ElementShortName">start_v</obj_property>
+      <obj_property name="ObjectShortName">start_v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/qk_done" type="logic">
+      <obj_property name="ElementShortName">qk_done</obj_property>
+      <obj_property name="ObjectShortName">qk_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/scale_done" type="logic">
+      <obj_property name="ElementShortName">scale_done</obj_property>
+      <obj_property name="ObjectShortName">scale_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/softmax_done" type="logic">
+      <obj_property name="ElementShortName">softmax_done</obj_property>
+      <obj_property name="ObjectShortName">softmax_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/v_done" type="logic">
+      <obj_property name="ElementShortName">v_done</obj_property>
+      <obj_property name="ObjectShortName">v_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/MATRIX_SIZE" type="array">
+      <obj_property name="ElementShortName">MATRIX_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MATRIX_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/NUM_PES" type="array">
+      <obj_property name="ElementShortName">NUM_PES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_PES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transformer_encoder_tb/dut/FIXED_POINT" type="array">
+      <obj_property name="ElementShortName">FIXED_POINT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIXED_POINT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group3302" type="group">
+      <obj_property name="label">proc_qk</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/proc_mode" type="array">
+         <obj_property name="ElementShortName">proc_mode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">proc_mode[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/data_in_a" type="array">
+         <obj_property name="ElementShortName">data_in_a[0:15][15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in_a[0:15][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/data_in_b" type="array">
+         <obj_property name="ElementShortName">data_in_b[0:15][15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in_b[0:15][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[0:15][15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[0:15][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/valid_in_array" type="array">
+         <obj_property name="ElementShortName">valid_in_array[0:3]</obj_property>
+         <obj_property name="ObjectShortName">valid_in_array[0:3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/op_code_array" type="array">
+         <obj_property name="ElementShortName">op_code_array[0:3][2:0]</obj_property>
+         <obj_property name="ObjectShortName">op_code_array[0:3][2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/data_in_a_array" type="array">
+         <obj_property name="ElementShortName">data_in_a_array[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in_a_array[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/data_in_b_array" type="array">
+         <obj_property name="ElementShortName">data_in_b_array[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in_b_array[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/data_in_acc_array" type="array">
+         <obj_property name="ElementShortName">data_in_acc_array[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in_acc_array[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/valid_out_array" type="array">
+         <obj_property name="ElementShortName">valid_out_array[0:3]</obj_property>
+         <obj_property name="ObjectShortName">valid_out_array[0:3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/acc_valid_array" type="array">
+         <obj_property name="ElementShortName">acc_valid_array[0:3]</obj_property>
+         <obj_property name="ObjectShortName">acc_valid_array[0:3]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/data_out_array" type="array">
+         <obj_property name="ElementShortName">data_out_array[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_array[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/pe_active" type="array">
+         <obj_property name="ElementShortName">pe_active[0:3]</obj_property>
+         <obj_property name="ObjectShortName">pe_active[0:3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/idx" type="array">
+         <obj_property name="ElementShortName">idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">idx[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/data_out_buffer" type="array">
+         <obj_property name="ElementShortName">data_out_buffer[0:15][15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_buffer[0:15][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/all_valid" type="logic">
+         <obj_property name="ElementShortName">all_valid</obj_property>
+         <obj_property name="ObjectShortName">all_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/DATA_WIDTH" type="array">
+         <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/MATRIX_SIZE" type="array">
+         <obj_property name="ElementShortName">MATRIX_SIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MATRIX_SIZE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/NUM_PES" type="array">
+         <obj_property name="ElementShortName">NUM_PES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUM_PES[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/FIXED_POINT" type="array">
+         <obj_property name="ElementShortName">FIXED_POINT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FIXED_POINT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group3494" type="group">
+         <obj_property name="label">pe0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /rst_n" type="logic">
+            <obj_property name="ElementShortName">rst_n</obj_property>
+            <obj_property name="ObjectShortName">rst_n</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /valid_in" type="logic">
+            <obj_property name="ElementShortName">valid_in</obj_property>
+            <obj_property name="ObjectShortName">valid_in</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /op_code" type="array">
+            <obj_property name="ElementShortName">op_code[2:0]</obj_property>
+            <obj_property name="ObjectShortName">op_code[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /data_in_a" type="array">
+            <obj_property name="ElementShortName">data_in_a[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_a[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /data_in_b" type="array">
+            <obj_property name="ElementShortName">data_in_b[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_b[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /acc_in" type="array">
+            <obj_property name="ElementShortName">acc_in[15:0]</obj_property>
+            <obj_property name="ObjectShortName">acc_in[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /data_out" type="array">
+            <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /valid_out" type="logic">
+            <obj_property name="ElementShortName">valid_out</obj_property>
+            <obj_property name="ObjectShortName">valid_out</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /acc_valid" type="logic">
+            <obj_property name="ElementShortName">acc_valid</obj_property>
+            <obj_property name="ObjectShortName">acc_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /mult_result" type="array">
+            <obj_property name="ElementShortName">mult_result[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mult_result[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /acc_reg" type="array">
+            <obj_property name="ElementShortName">acc_reg[15:0]</obj_property>
+            <obj_property name="ObjectShortName">acc_reg[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /stage1_reg" type="array">
+            <obj_property name="ElementShortName">stage1_reg[15:0]</obj_property>
+            <obj_property name="ObjectShortName">stage1_reg[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /valid_stage1" type="logic">
+            <obj_property name="ElementShortName">valid_stage1</obj_property>
+            <obj_property name="ObjectShortName">valid_stage1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /valid_stage2" type="logic">
+            <obj_property name="ElementShortName">valid_stage2</obj_property>
+            <obj_property name="ObjectShortName">valid_stage2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[0].pe_inst /op_code_reg" type="array">
+            <obj_property name="ElementShortName">op_code_reg[2:0]</obj_property>
+            <obj_property name="ObjectShortName">op_code_reg[2:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group3519" type="group">
+         <obj_property name="label">pe1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /rst_n" type="logic">
+            <obj_property name="ElementShortName">rst_n</obj_property>
+            <obj_property name="ObjectShortName">rst_n</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /valid_in" type="logic">
+            <obj_property name="ElementShortName">valid_in</obj_property>
+            <obj_property name="ObjectShortName">valid_in</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /op_code" type="array">
+            <obj_property name="ElementShortName">op_code[2:0]</obj_property>
+            <obj_property name="ObjectShortName">op_code[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /data_in_a" type="array">
+            <obj_property name="ElementShortName">data_in_a[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_a[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /data_in_b" type="array">
+            <obj_property name="ElementShortName">data_in_b[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_b[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /acc_in" type="array">
+            <obj_property name="ElementShortName">acc_in[15:0]</obj_property>
+            <obj_property name="ObjectShortName">acc_in[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /data_out" type="array">
+            <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /valid_out" type="logic">
+            <obj_property name="ElementShortName">valid_out</obj_property>
+            <obj_property name="ObjectShortName">valid_out</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /acc_valid" type="logic">
+            <obj_property name="ElementShortName">acc_valid</obj_property>
+            <obj_property name="ObjectShortName">acc_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /mult_result" type="array">
+            <obj_property name="ElementShortName">mult_result[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mult_result[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /acc_reg" type="array">
+            <obj_property name="ElementShortName">acc_reg[15:0]</obj_property>
+            <obj_property name="ObjectShortName">acc_reg[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /stage1_reg" type="array">
+            <obj_property name="ElementShortName">stage1_reg[15:0]</obj_property>
+            <obj_property name="ObjectShortName">stage1_reg[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /valid_stage1" type="logic">
+            <obj_property name="ElementShortName">valid_stage1</obj_property>
+            <obj_property name="ObjectShortName">valid_stage1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /valid_stage2" type="logic">
+            <obj_property name="ElementShortName">valid_stage2</obj_property>
+            <obj_property name="ObjectShortName">valid_stage2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /op_code_reg" type="array">
+            <obj_property name="ElementShortName">op_code_reg[2:0]</obj_property>
+            <obj_property name="ObjectShortName">op_code_reg[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /DATA_WIDTH" type="array">
+            <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+            <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /FIXED_POINT" type="array">
+            <obj_property name="ElementShortName">FIXED_POINT[31:0]</obj_property>
+            <obj_property name="ObjectShortName">FIXED_POINT[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /OP_MULT" type="array">
+            <obj_property name="ElementShortName">OP_MULT[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_MULT[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /OP_ACC" type="array">
+            <obj_property name="ElementShortName">OP_ACC[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_ACC[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /OP_SCALE" type="array">
+            <obj_property name="ElementShortName">OP_SCALE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_SCALE[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /OP_SOFT" type="array">
+            <obj_property name="ElementShortName">OP_SOFT[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_SOFT[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /OP_PASS" type="array">
+            <obj_property name="ElementShortName">OP_PASS[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_PASS[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[1].pe_inst /SCALE_FACTOR" type="array">
+            <obj_property name="ElementShortName">SCALE_FACTOR[15:0]</obj_property>
+            <obj_property name="ObjectShortName">SCALE_FACTOR[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group3544" type="group">
+         <obj_property name="label">pe2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /rst_n" type="logic">
+            <obj_property name="ElementShortName">rst_n</obj_property>
+            <obj_property name="ObjectShortName">rst_n</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /valid_in" type="logic">
+            <obj_property name="ElementShortName">valid_in</obj_property>
+            <obj_property name="ObjectShortName">valid_in</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /op_code" type="array">
+            <obj_property name="ElementShortName">op_code[2:0]</obj_property>
+            <obj_property name="ObjectShortName">op_code[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /data_in_a" type="array">
+            <obj_property name="ElementShortName">data_in_a[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_a[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /data_in_b" type="array">
+            <obj_property name="ElementShortName">data_in_b[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_b[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /acc_in" type="array">
+            <obj_property name="ElementShortName">acc_in[15:0]</obj_property>
+            <obj_property name="ObjectShortName">acc_in[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /data_out" type="array">
+            <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /valid_out" type="logic">
+            <obj_property name="ElementShortName">valid_out</obj_property>
+            <obj_property name="ObjectShortName">valid_out</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /acc_valid" type="logic">
+            <obj_property name="ElementShortName">acc_valid</obj_property>
+            <obj_property name="ObjectShortName">acc_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /mult_result" type="array">
+            <obj_property name="ElementShortName">mult_result[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mult_result[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /acc_reg" type="array">
+            <obj_property name="ElementShortName">acc_reg[15:0]</obj_property>
+            <obj_property name="ObjectShortName">acc_reg[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /stage1_reg" type="array">
+            <obj_property name="ElementShortName">stage1_reg[15:0]</obj_property>
+            <obj_property name="ObjectShortName">stage1_reg[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /valid_stage1" type="logic">
+            <obj_property name="ElementShortName">valid_stage1</obj_property>
+            <obj_property name="ObjectShortName">valid_stage1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /valid_stage2" type="logic">
+            <obj_property name="ElementShortName">valid_stage2</obj_property>
+            <obj_property name="ObjectShortName">valid_stage2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /op_code_reg" type="array">
+            <obj_property name="ElementShortName">op_code_reg[2:0]</obj_property>
+            <obj_property name="ObjectShortName">op_code_reg[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /DATA_WIDTH" type="array">
+            <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+            <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /FIXED_POINT" type="array">
+            <obj_property name="ElementShortName">FIXED_POINT[31:0]</obj_property>
+            <obj_property name="ObjectShortName">FIXED_POINT[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /OP_MULT" type="array">
+            <obj_property name="ElementShortName">OP_MULT[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_MULT[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /OP_ACC" type="array">
+            <obj_property name="ElementShortName">OP_ACC[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_ACC[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /OP_SCALE" type="array">
+            <obj_property name="ElementShortName">OP_SCALE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_SCALE[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /OP_SOFT" type="array">
+            <obj_property name="ElementShortName">OP_SOFT[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_SOFT[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /OP_PASS" type="array">
+            <obj_property name="ElementShortName">OP_PASS[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_PASS[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[2].pe_inst /SCALE_FACTOR" type="array">
+            <obj_property name="ElementShortName">SCALE_FACTOR[15:0]</obj_property>
+            <obj_property name="ObjectShortName">SCALE_FACTOR[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group3569" type="group">
+         <obj_property name="label">pe3</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /rst_n" type="logic">
+            <obj_property name="ElementShortName">rst_n</obj_property>
+            <obj_property name="ObjectShortName">rst_n</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /valid_in" type="logic">
+            <obj_property name="ElementShortName">valid_in</obj_property>
+            <obj_property name="ObjectShortName">valid_in</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /op_code" type="array">
+            <obj_property name="ElementShortName">op_code[2:0]</obj_property>
+            <obj_property name="ObjectShortName">op_code[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /data_in_a" type="array">
+            <obj_property name="ElementShortName">data_in_a[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_a[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /data_in_b" type="array">
+            <obj_property name="ElementShortName">data_in_b[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_b[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /acc_in" type="array">
+            <obj_property name="ElementShortName">acc_in[15:0]</obj_property>
+            <obj_property name="ObjectShortName">acc_in[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /data_out" type="array">
+            <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /valid_out" type="logic">
+            <obj_property name="ElementShortName">valid_out</obj_property>
+            <obj_property name="ObjectShortName">valid_out</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /acc_valid" type="logic">
+            <obj_property name="ElementShortName">acc_valid</obj_property>
+            <obj_property name="ObjectShortName">acc_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /mult_result" type="array">
+            <obj_property name="ElementShortName">mult_result[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mult_result[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /acc_reg" type="array">
+            <obj_property name="ElementShortName">acc_reg[15:0]</obj_property>
+            <obj_property name="ObjectShortName">acc_reg[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /stage1_reg" type="array">
+            <obj_property name="ElementShortName">stage1_reg[15:0]</obj_property>
+            <obj_property name="ObjectShortName">stage1_reg[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /valid_stage1" type="logic">
+            <obj_property name="ElementShortName">valid_stage1</obj_property>
+            <obj_property name="ObjectShortName">valid_stage1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /valid_stage2" type="logic">
+            <obj_property name="ElementShortName">valid_stage2</obj_property>
+            <obj_property name="ObjectShortName">valid_stage2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /op_code_reg" type="array">
+            <obj_property name="ElementShortName">op_code_reg[2:0]</obj_property>
+            <obj_property name="ObjectShortName">op_code_reg[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /DATA_WIDTH" type="array">
+            <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+            <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /FIXED_POINT" type="array">
+            <obj_property name="ElementShortName">FIXED_POINT[31:0]</obj_property>
+            <obj_property name="ObjectShortName">FIXED_POINT[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /OP_MULT" type="array">
+            <obj_property name="ElementShortName">OP_MULT[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_MULT[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /OP_ACC" type="array">
+            <obj_property name="ElementShortName">OP_ACC[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_ACC[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /OP_SCALE" type="array">
+            <obj_property name="ElementShortName">OP_SCALE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_SCALE[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /OP_SOFT" type="array">
+            <obj_property name="ElementShortName">OP_SOFT[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_SOFT[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /OP_PASS" type="array">
+            <obj_property name="ElementShortName">OP_PASS[2:0]</obj_property>
+            <obj_property name="ObjectShortName">OP_PASS[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/transformer_encoder_tb/dut/proc_qk/\pe_array[3].pe_inst /SCALE_FACTOR" type="array">
+            <obj_property name="ElementShortName">SCALE_FACTOR[15:0]</obj_property>
+            <obj_property name="ObjectShortName">SCALE_FACTOR[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

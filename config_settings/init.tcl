@@ -1,0 +1,1 @@
+set_param board.repoPaths [list "C:/Users/chira/Desktop/ece498/pynq-z2/A.0"]

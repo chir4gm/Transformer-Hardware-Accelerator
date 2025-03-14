@@ -1,0 +1,490 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Fri Mar 14 14:07:48 2025
+# Process ID: 25036
+# Current directory: C:/Users/chira/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30236
+# Log file: C:/Users/chira/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/chira/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: rz09-0165, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 4, Host memory: 17067 MB
+#-----------------------------------------------------------
+start_gui
+INFO: [Common 17-1460] Use of init.tcl in C:/Users/chira/AppData/Roaming/Xilinx/Vivado/init.tcl is deprecated. Please use Vivado_init.tcl 
+Sourcing tcl script 'C:/Users/chira/AppData/Roaming/Xilinx/Vivado/init.tcl'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project C:/Users/chira/Desktop/ece498/final_project/final_project.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/chira/Desktop/ece498/final_project/final_project.sim/sim_1/behav/xsim/tb_transformer_encoder_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-151] The current board 'tul.com.tw::pynq-z2:1.0' is from a local repo. The vivado install has a corresponding board with version greater than or equal to the local repo board. Please use boards from vivado install to avoid any upgrade/migrate issues
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chira/Desktop/ece498/ip_repo/transformer_axi_wrapper_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:17 . Memory (MB): peak = 1490.629 ; gain = 220.656
+update_compile_order -fileset sources_1
+write_project_tcl -all_properties -dump_project_info {C:/Users/chira/Downloads/498_export/498_transformer.tcl}
+open_bd_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1490.629 ; gain = 0.000
+INFO: [BD 5-453] Writing out BD creation steps for design_1 as a TCL proc
+INFO: [Vivado-projutils-8] Tcl script '498_transformer.tcl' generated in output directory 'C:/Users/chira/Downloads/498_export'
+
+INFO: [Vivado-projutils-15] Please note that by default, the file path for the project source files were set with respect to the 'origin_dir' variable in the
+ generated script. When this script is executed from the output directory, these source files will be referenced with respect to this 'origin_dir' path value.
+ In case this script was later moved to a different directory, the 'origin_dir' value must be set manually in the script with the path
+ relative to the new output directory to make sure that the source files are referenced correctly from the original project. You can also set the
+ 'origin_dir' automatically by setting the 'origin_dir_loc' variable in the tcl shell before sourcing this generated script. The 'origin_dir_loc'
+ variable should be set to the path relative to the new output directory. Alternatively, if you are sourcing the script from the Vivado command line,
+ then set the origin dir using '-tclargs --origin_dir <path>'. For example, 'vivado -mode tcl -source 498_transformer.tcl -tclargs --origin_dir ".."
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+write_project_tcl: Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1490.629 ; gain = 0.000
+write_project_tcl -all_properties {C:/Users/chira/Downloads/498_export/498_transformer.tcl}
+INFO: [BD 5-453] Writing out BD creation steps for design_1 as a TCL proc
+INFO: [Vivado-projutils-8] Tcl script '498_transformer.tcl' generated in output directory 'C:/Users/chira/Downloads/498_export'
+
+INFO: [Vivado-projutils-15] Please note that by default, the file path for the project source files were set with respect to the 'origin_dir' variable in the
+ generated script. When this script is executed from the output directory, these source files will be referenced with respect to this 'origin_dir' path value.
+ In case this script was later moved to a different directory, the 'origin_dir' value must be set manually in the script with the path
+ relative to the new output directory to make sure that the source files are referenced correctly from the original project. You can also set the
+ 'origin_dir' automatically by setting the 'origin_dir_loc' variable in the tcl shell before sourcing this generated script. The 'origin_dir_loc'
+ variable should be set to the path relative to the new output directory. Alternatively, if you are sourcing the script from the Vivado command line,
+ then set the origin dir using '-tclargs --origin_dir <path>'. For example, 'vivado -mode tcl -source 498_transformer.tcl -tclargs --origin_dir ".."
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+write_project_tcl: Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 1490.629 ; gain = 0.000
+write_project_tcl -no_copy_sources -use_bd_files {C:/Users/chira/Downloads/498_export/498_transformer.tcl}
+INFO: [Vivado-projutils-8] Tcl script '498_transformer.tcl' generated in output directory 'C:/Users/chira/Downloads/498_export'
+
+INFO: [Vivado-projutils-15] Please note that by default, the file path for the project source files were set with respect to the 'origin_dir' variable in the
+ generated script. When this script is executed from the output directory, these source files will be referenced with respect to this 'origin_dir' path value.
+ In case this script was later moved to a different directory, the 'origin_dir' value must be set manually in the script with the path
+ relative to the new output directory to make sure that the source files are referenced correctly from the original project. You can also set the
+ 'origin_dir' automatically by setting the 'origin_dir_loc' variable in the tcl shell before sourcing this generated script. The 'origin_dir_loc'
+ variable should be set to the path relative to the new output directory. Alternatively, if you are sourcing the script from the Vivado command line,
+ then set the origin dir using '-tclargs --origin_dir <path>'. For example, 'vivado -mode tcl -source 498_transformer.tcl -tclargs --origin_dir ".."
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+write_project_tcl: Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1490.629 ; gain = 0.000
+set proj_dir [get_property DIRECTORY [current_project]]
+C:/Users/chira/Desktop/ece498/final_project
+set_property -name "origin_dir_path" -value "${proj_dir}" -objects [current_fileset]
+ERROR: [Common 17-69] Command failed: Invalid property 'origin_dir_path' specified. Property does not exist.
+set_property -name "origin_dir" -value "${proj_dir}" -objects [current_fileset]
+ERROR: [Common 17-69] Command failed: Invalid property 'origin_dir' specified. Property does not exist.
+write_project_tcl
+ERROR: [Vivado-projutils-2] Missing value for option 'file', please type 'write_project_tcl -help' for usage info.
+ERROR: [Common 17-39] 'send_msg_id' failed due to earlier errors.
+write_project_tcl -h
+write_project_tcl
+
+Description: 
+(User-written application)
+Export Tcl script for re-creating the current project
+
+
+Syntax: 
+write_project_tcl  [-paths_relative_to <arg>] [-origin_dir_override <arg>]
+                   [-target_proj_dir <arg>] [-force] [-all_properties]
+                   [-no_copy_sources] [-absolute_remote_path] [-no_ip_version]
+                   [-absolute_path] [-dump_project_info] [-use_bd_files]
+                   [-no_bd_xlnoc] [-internal] [-validate]
+                   [-ignore_msg_control_rules] [-quiet] [-verbose] <file>
+
+Returns: 
+true (0) if success, false (1) otherwise
+
+
+Usage: 
+  Name                         Description
+  ----------------------------------------
+  [-paths_relative_to]         Override the reference directory variable for 
+                               source file relative paths
+                               Default: Script output directory path
+  [-origin_dir_override]       Set 'origin_dir' directory variable to the 
+                               specified value (Default is value specified 
+                               with the -paths_relative_to switch)
+                               Default: None
+  [-target_proj_dir]           Directory where the project needs to be 
+                               restored
+                               Default: Current project directory path
+  [-force]                     Overwrite existing tcl script file
+  [-all_properties]            Write all properties (default & non-default) 
+                               for the project object(s)
+  [-no_copy_sources]           Do not import sources even if they were local 
+                               in the original project
+                               Default: 1
+  [-absolute_remote_path]      Write remote sources with absolute paths
+  [-no_ip_version]             Flag to not include the IP version as part of 
+                               the IP VLNV in create_bd_cell commands.
+                               Default: 1
+  [-absolute_path]             Make all file paths absolute wrt the original 
+                               project directory
+  [-dump_project_info]         Write object values
+  [-use_bd_files]              Use BD sources directly instead of writing out
+                               procs to create them
+  [-no_bd_xlnoc]               Do not create BD xlnoc cell
+                               Default: 1
+  [-internal]                  Print basic header information in the 
+                               generated tcl script
+  [-validate]                  Runs a validate script before recreating the 
+                               project. To test if the files and paths 
+                               refrenced in the tcl file exists or not.
+  [-ignore_msg_control_rules]  Do not imports message control rules in tcl 
+                               script
+  [-quiet]                     Execute the command quietly, returning no 
+                               messages from the command.
+  [-verbose]                   Suspend message limits during command 
+                               execution
+  <file>                       Name of the tcl script file to generate
+
+Categories: 
+xilinxtclstore, projutils, user-written
+Description:
+
+  Create a Tcl script to re-create the current project. The generated script
+  will contain the Tcl commands for creating the project, setting the project
+  type, creating filesets, adding/importing source files, and defining runs and
+  run properties. The re-created project will be functionally equivalent to
+  the original project.
+
+  This generated Tcl project script and the various design sources can be stored
+  in a version control system for source file management and project archival.
+
+  To re-create the project, you should source the generated Tcl script in a 
+  Vivado Tcl shell from the same directory where the script was generated. If the
+  original project already exists in the same project directory, the script may
+  fail with an error message that the project already exists. In this case you may
+  want to run the script from a different directory path or update the generated
+  script by adding a "-force" switch to the "create_project" command. 
+
+  In the generated Tcl script, the project source files are referenced relative to
+  the "origin_dir" variable. By default, the source files are referenced relative
+  to the directory where the tcl script is generated. The "origin_dir" is set to "."
+  (the current tcl script directory). When the script is executed from this directory,
+  any source files will be referenced relative to this 'origin_dir' path value.
+
+  In the case where the script is sourced from a different directory or physically
+  moved to a different directory, then the "origin_dir" variable MUST be manually set
+  relative to the new directory. Manually set the "origin_dir" to make sure that the
+  source files are correctly referenced relative to the original location.
+
+  You can have the "origin_dir" automatically set to a directory of your choice by 
+  using the -paths_relative_to option. All the source file paths will be defined
+  relative to the directory specified with this option.
+ 
+  If -absolute_path is specified, the project source files will be referenced
+  using absolute paths only. In this case, the script can be executed from any
+  directory provided these absolute paths are accessible in the same filesystem. 
+
+  If the original project contains IP cores, the following rules apply in the generated
+  script while re-creating the project:-
+
+  1. The IP will not be regenerated, if it was generated in the original project.
+
+    In this case, the script will "add" the IP from the original project with
+    generated synthesis/simulation products.
+ 
+  2. The IP will be generated, if it was not generated in the original project.
+  
+    In this case, the script will "add" the IP from the original project and 
+    create OOC synthesis runs for generating the synthesis/simulation products.
+
+  If the original project had completed runs, those runs will be re-created with
+  the same settings in the generated project; however those runs will not be
+  automatically launched in order to save runtime.
+
+Arguments:
+
+  -paths_relative_to - (Optional) Specify the directory path relative to which
+  the sources will referenced when re-creating the project. The path will be
+  set for the "origin_dir" variable in the generated script.
+
+  -target_proj_dir - (Optional) Specify the directory path where the project
+  will be recreated. The tool will write "create_project" command with the
+  directory path specified with this switch.
+
+  -force - (Optional) Overwrite an existing project script file of the same
+  name. If the script file already exists, the tool returns an error unless
+  the -force argument is specified. 
+
+  -all_properties - (Optional) Write all properties (default and non-default)
+  for the project. The tool will write "set_property" commands for setting the
+  properties for objects like project, filesets, files, runs etc. 
+
+  Note: By default, if the -all_properties switch is not specified, then only
+  the non-default properties will be written to the script.
+
+  -no_copy_sources - (Optional) Do not import sources even if they are local to
+  the original project. The tool will not import the files that were local in
+  the original project into the new project. If the design contains BD sources then
+  -use_bd_files switch must also be provided.
+
+  -no_ip_version - (Optional) Flag to not include the IP version as part of the
+  IP VLNV in create_bd_cell commands. NOTE - this may have implications if there 
+  are major IP version changes.
+
+  -absolute_path - (Optional) Make all file paths absolute in the generated script.
+  This allows running the script from any location in that filesystem. By default the 
+  file paths will be relative to the origin_dir variable.
+
+  -dump_project_info - (Optional) Dump information about all properties to two text files, 
+  <project_name>_dump.txt (short), and <project_name>_def_val.txt (detailed).
+
+  -use_bd_files - (Optional) Use block design sources directly instead of writing out
+  procs to create them. If the -no_copy_sources switch is provided the BD files will be 
+  added (but not copied locally) to the project. Otherwise the files will be imported 
+  (copied locally) to the project.
+
+  -internal - (Optional) Print only basic header information in the generated tcl script.
+  By default information about required file sources will also be part of the header.
+
+  -quiet - (Optional) Execute the command quietly, returning only ERROR messages. 
+
+  -verbose - (Optional) Temporarily override any message limits and return all
+  messages from this command.
+
+  Note: Message limits can be defined with the set_msg_config command.
+
+  <file> - (Required) The name of the output Tcl script file to be created by
+   the write_project_tcl command. The tool will apply an extension of '.tcl' if
+   a file extension is not supplied. 
+
+Examples:
+
+  The following example exports a Tcl script named "recreate.tcl" for the test project:-
+  
+  Start Vivado in tcl mode and execute following commands:
+    % open_project test/test.xpr
+    % write_project_tcl recreate.tcl
+    % close_project
+
+  The following example exports a Tcl script named "recreate.tcl" for the test
+  project in the "./script" directory and specifies the "/tmp/test" directory path
+  in the "create_project" command. When the "recreate.tcl" script is sourced in the
+  Vivado Tcl shell, the project will be re-created in "/tmp/test" directory:-
+
+  Start Vivado in tcl mode and execute following commands:
+    % open_project test/test.xpr
+    % write_project_tcl -target_proj_dir "/tmp/test" ./script/recreate.tcl
+    % close_project
+    % source script/recreate.tcl
+
+  The following Tcl commands exports Tcl script for the current project and writes
+  all the properties, both default or non-default values:-
+
+  % write_project_tcl -all_properties recreate.tcl
+
+  The following Tcl commands exports Tcl script for the current project and adds files
+  that are local in this project. The recreated project will reference these files:-
+
+  % write_project_tcl -no_copy_sources recreate.tcl
+
+  The following Tcl and shell commands opens a test project, exports "recreate.tcl"
+  script for the current project in the current working directory, creates a new
+  project in ./my_test directory, prints the list of files in the new project, prints
+  the current project settings and then closes the newly created project:-
+
+  Start Vivado in tcl mode and execute following commands:
+    % open_project test/test.xpr
+    % write_project_tcl -force recreate.tcl
+    % close_project
+    % exit
+
+  From OS shell:
+    # mkdir my_test
+    # cd my_test
+    # vivado -mode batch -source ../recreate.tcl -tclargs --origin_dir ..
+
+  Start Vivado in tcl mode and execute following commands:
+    % open_project test/test.xpr 
+    % get_files -of_objects [get_filesets sources_1]
+    % report_property [current_project]
+    % close_project
+
+  The following Tcl commands creates a new project named bft_test, adds files to the
+  project, sets the fileset property, exports a tcl script named "bft.tcl" in the current
+  working directory, creates a new project in "./my_bft" directory, prints the list of
+  files in the new project (test_1.v and test_2.v), prints the "verilog_define" property
+  value and then closes the newly created project:-
+
+  Start Vivado in tcl mode and execute following commands:
+    % create_project bft_test ./bft_test
+    % add_files test_1.v
+    % add_files test_2.v
+    % set_property verilog_define {a=10} [get_filesets sources_1]
+    % write_project_tcl -force bft.tcl
+    % close_project
+    % exit
+
+  From OS shell:
+    # mkdir my_bft
+    # cd my_bft
+    # vivado -mode batch -source ../bft.tcl -tclargs --origin_dir ..
+    
+  Start Vivado in tcl mode and execute following commands:
+    % open_project bft_test/bft_test.xpr 
+    % get_files -of_objects [get_filesets sources_1]
+    % get_property verilog_define [get_filesets sources_1]
+    % close_project
+
+See Also:
+
+   *  add_files
+   *  archive_project
+   *  close_project
+   *  create_project
+   *  current_project
+   *  get_files
+   *  get_property
+   *  open_project
+   *  report_property
+   *  set_property
+write_project_tcl -force -absolute_path -target_proj_dir C:/Users/chira/Downloads/498_export/project C:/Users/chira/Downloads/498_export/498_transformer.tcl
+INFO: [BD 5-453] Writing out BD creation steps for design_1 as a TCL proc
+INFO: [Vivado-projutils-8] Tcl script '498_transformer.tcl' generated in output directory 'C:/Users/chira/Downloads/498_export'
+
+INFO: [Vivado-projutils-16] Please note that the -absolute_path switch was specified, hence the project source files will be referenced using
+ absolute path only, in the generated script. As such, the generated script will only work in the same filesystem where those absolute paths are accessible.
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+write_project_tcl: Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1490.629 ; gain = 0.000
+archive_project C:/Users/chira/Downloads/498_export/final_project.xpr.zip -temp_dir C:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165 -force -exclude_run_results -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165' for archiving project
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/chira/Desktop/ece498/final_project/final_project.sim/sim_1/behav/xsim/tb_transformer_encoder_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-151] The current board 'tul.com.tw::pynq-z2:1.0' is from a local repo. The vivado install has a corresponding board with version greater than or equal to the local repo board. Please use boards from vivado install to avoid any upgrade/migrate issues
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chira/Desktop/ece498/ip_repo/transformer_axi_wrapper_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.cache/ip 
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+INFO: [Project 1-1161] Replacing file C:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.srcs/utils_1/imports/synth_1/transformer_encoder.dcp with file C:/Users/chira/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-25036-rz09-0165/PrjAr/_X_/final_project.runs/synth_1/top.dcp
+WARNING: [Coretcl 2-105] Run 'design_1_transformer_axi_wrap_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_transformer_axi_wrap_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_processing_system7_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_processing_system7_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_auto_pc_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_auto_pc_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_rst_ps7_0_100M_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_rst_ps7_0_100M_0_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_transformer_axi_wrap_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_processing_system7_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_auto_pc_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_rst_ps7_0_100M_0_impl_1'...
+WARNING: [Coretcl 2-52] File 'C:/Users/chira/Desktop/ece498/final_project/final_project.sim/sim_1/behav/xsim/tb_transformer_encoder_behav.wcfg' does not exist
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_auto_pc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_auto_pc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_rst_ps7_0_100M_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_rst_ps7_0_100M_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_transformer_axi_wrap_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_transformer_axi_wrap_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'MAC_matrix_multiply'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'MAC_matrix_multiply'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/chira/Desktop/ece498/final_project/final_project.sim/sim_1/behav/xsim/tb_transformer_encoder_behav.wcfg
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_3'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'

@@ -1,0 +1,17 @@
+Time resolution is 1 ps
+Starting processor testbench...
+
+Test 1: Basic multiplication
+Multiplication test passed!
+
+Test 2: Accumulation
+Accumulation test passed!
+
+Test 3: Scale operation
+Scale operation completed
+
+Test 4: Softmax operation
+Softmax operation completed
+
+All tests completed!
+$finish called at time : 1875 ns : File "C:/Users/chira/Desktop/ece498/final_project/final_project.srcs/sim_3/new/processortb.sv" Line 133

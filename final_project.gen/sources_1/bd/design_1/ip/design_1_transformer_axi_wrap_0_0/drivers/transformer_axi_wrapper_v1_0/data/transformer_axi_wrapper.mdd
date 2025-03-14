@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER transformer_axi_wrapper
+	OPTION supported_peripherals = (transformer_axi_wrapper);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = transformer_axi_wrapper;
+END DRIVER
